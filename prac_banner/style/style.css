@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    height: 90vh;
+    width: 100%;
+    /* max-width: 1100px;
+    margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(20deg ,rgba(255, 0, 0, 0.041),rgb(128, 0, 32)), url(../images/sun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content h1 {
+    color: #076aacf8;
+    text-transform: uppercase;
+
+}
+
+.content p {
+    color: #7B7D7D;
+    margin: 20px 0;
+
+}
+
+button{
+    font-size: medium;
+    text-align: center;
+    color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #7B7D7D;
+    color:whitesmoke;
+}
+
